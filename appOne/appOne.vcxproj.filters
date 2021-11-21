@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MODEL">
+      <UniqueIdentifier>{2cd8cb6b-d48d-406f-837e-bc3d5b48ac0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MODEL\BASE">
+      <UniqueIdentifier>{310cba05-3651-4d8a-ba71-d46606b50e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJECT">
+      <UniqueIdentifier>{4229760c-61e0-4b40-8d20-5b72ea3782d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJECT\BASE">
+      <UniqueIdentifier>{b0c4b531-deaa-4c21-bf49-be8a97655849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GAME">
+      <UniqueIdentifier>{c5a73cee-8480-4a50-b2e5-0de6c16d831a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ALL_DATA">
+      <UniqueIdentifier>{375d33e4-3d2d-4cbb-b9d2-81bb0c6c6f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJECT\SYS_OBJECT">
+      <UniqueIdentifier>{5c40aa78-71dd-4e96-909e-0e54a3845ef8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gmain.cpp" />
+    <ClCompile Include="MODEL.cpp">
+      <Filter>MODEL\BASE</Filter>
+    </ClCompile>
+    <ClCompile Include="CAMERA.cpp">
+      <Filter>OBJECT\SYS_OBJECT</Filter>
+    </ClCompile>
+    <ClCompile Include="LIGHT.cpp">
+      <Filter>OBJECT\SYS_OBJECT</Filter>
+    </ClCompile>
+    <ClCompile Include="PROJECTOR.cpp">
+      <Filter>OBJECT\SYS_OBJECT</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJECT.cpp">
+      <Filter>OBJECT\BASE</Filter>
+    </ClCompile>
+    <ClCompile Include="FLOOR.cpp">
+      <Filter>OBJECT</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME.cpp">
+      <Filter>GAME</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME_POINTER.cpp">
+      <Filter>GAME</Filter>
+    </ClCompile>
+    <ClCompile Include="ALL_DATA.cpp">
+      <Filter>ALL_DATA</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BARREL.h">
+      <Filter>MODEL</Filter>
+    </ClInclude>
+    <ClInclude Include="CONE.h">
+      <Filter>MODEL</Filter>
+    </ClInclude>
+    <ClInclude Include="CUBE.h">
+      <Filter>MODEL</Filter>
+    </ClInclude>
+    <ClInclude Include="CYLINDER.h">
+      <Filter>MODEL</Filter>
+    </ClInclude>
+    <ClInclude Include="JAG.h">
+      <Filter>MODEL</Filter>
+    </ClInclude>
+    <ClInclude Include="POLYGON.h">
+      <Filter>MODEL</Filter>
+    </ClInclude>
+    <ClInclude Include="PRISM.h">
+      <Filter>MODEL</Filter>
+    </ClInclude>
+    <ClInclude Include="SPHERE.h">
+      <Filter>MODEL</Filter>
+    </ClInclude>
+    <ClInclude Include="SQUARE.h">
+      <Filter>MODEL</Filter>
+    </ClInclude>
+    <ClInclude Include="STAR.h">
+      <Filter>MODEL</Filter>
+    </ClInclude>
+    <ClInclude Include="MODEL.h">
+      <Filter>MODEL\BASE</Filter>
+    </ClInclude>
+    <ClInclude Include="CAMERA.h">
+      <Filter>OBJECT\SYS_OBJECT</Filter>
+    </ClInclude>
+    <ClInclude Include="LIGHT.h">
+      <Filter>OBJECT\SYS_OBJECT</Filter>
+    </ClInclude>
+    <ClInclude Include="PROJECTOR.h">
+      <Filter>OBJECT\SYS_OBJECT</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJECT.h">
+      <Filter>OBJECT\BASE</Filter>
+    </ClInclude>
+    <ClInclude Include="FLOOR.h">
+      <Filter>OBJECT</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJ_ID.h">
+      <Filter>OBJECT\BASE</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJ_STATE.h">
+      <Filter>OBJECT\BASE</Filter>
+    </ClInclude>
+    <ClInclude Include="PLANE.h">
+      <Filter>MODEL</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME.h">
+      <Filter>GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME_POINTER.h">
+      <Filter>GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="ALL_DATA.h">
+      <Filter>ALL_DATA</Filter>
+    </ClInclude>
+    <ClInclude Include="FORMATION_DATA.h">
+      <Filter>ALL_DATA</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
